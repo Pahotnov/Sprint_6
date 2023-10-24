@@ -1,3 +1,6 @@
+from pages.ya_scooter_main_page import YaScooterMainPage
+
+
 class Data:
     FIRST_QUESTION_ANSWER = 'Сутки — 400 рублей. Оплата курьеру — наличными или картой.'
     SECOND_QUESTION_ANSWER = 'Пока что у нас так: один заказ — один самокат. ' \
@@ -17,3 +20,30 @@ class Data:
                               'Штрафа не будет, объяснительной записки тоже не попросим. Все же свои.'
     EIGHTH_QUESTION_ANSWER = 'Да, обязательно. Всем самокатов! И Москве, и Московской области.'
     SUCCESS_ORDER_TITLE = 'Заказ оформлен'
+
+    lists_of_questions_and_answers = [
+        [
+            YaScooterMainPage.first_question, YaScooterMainPage.first_answer, FIRST_QUESTION_ANSWER
+        ],
+        [
+            YaScooterMainPage.second_question, YaScooterMainPage.second_answer, SECOND_QUESTION_ANSWER
+        ],
+        [
+            YaScooterMainPage.third_question, YaScooterMainPage.third_answer, THIRD_QUESTION_ANSWER
+        ],
+        [
+            YaScooterMainPage.fourth_question, YaScooterMainPage.fourth_answer, FOURTH_QUESTION_ANSWER
+        ],
+        [
+            YaScooterMainPage.fifth_question, YaScooterMainPage.fifth_answer, FIFTH_QUESTION_ANSWER
+        ],
+        [
+            YaScooterMainPage.sixth_question, YaScooterMainPage.sixth_answer, SIXTH_QUESTION_ANSWER
+        ],
+        [
+            YaScooterMainPage.seventh_question, YaScooterMainPage.seventh_answer, SEVENTH_QUESTION_ANSWER
+        ],
+        [
+            YaScooterMainPage.eighth_question, YaScooterMainPage.eighth_answer, EIGHTH_QUESTION_ANSWER
+        ],
+    ]
